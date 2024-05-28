@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Bliss Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Brewed Bliss</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2 id="greeting">Welcome to Brewed Bliss</h2>
+            <p>Your daily dose of blissful brews and cozy vibes.</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Brewed Bliss, we believe in the power of a good cup of coffee to bring people together. Our mission is to provide a cozy space where you can relax, work, or catch up with friends while enjoying our carefully crafted beverages.</p>
+        </div>
+    </section>
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <ul id="menu-items">
+                <li>
+                    <span>Espresso</span>
+                    <button class="order-btn" data-item="Espresso">Order</button>
+                </li>
+                <li>
+                    <span>Latte</span>
+                    <button class="order-btn" data-item="Latte">Order</button>
+                </li>
+                <li>
+                    <span>Cappuccino</span>
+                    <button class="order-btn" data-item="Cappuccino">Order</button>
+                </li>
+                <li>
+                    <span>Mocha</span>
+                    <button class="order-btn" data-item="Mocha">Order</button>
+                </li>
+                <li>
+                    <span>Herbal Tea</span>
+                    <button class="order-btn" data-item="Herbal Tea">Order</button>
+                </li>
+                <li>
+                    <span>Pastries</span>
+                    <button class="order-btn" data-item="Pastries">Order</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="order" class="order">
+        <div class="container">
+            <h2>Your Order</h2>
+            <ul id="order-list"></ul>
+            <button id="place-order-btn" class="btn">Place Order</button>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <button id="contactBtn" class="btn">More Contact Info</button>
+            <div id="contactModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Email: contact@brewedbliss.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Address: 123 Coffee Street, Caffeine City</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Brewed Bliss. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
